@@ -1,2 +1,2 @@
 # Python
-Dossier créé pour les petits scripts Python
+Material para pesquisa de A a Z
