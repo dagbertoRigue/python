@@ -1,2 +1,3 @@
 # Python
-Material para pesquisa de A a Z
+Python from A to Z for desktop and mobile.
+Base repository.
