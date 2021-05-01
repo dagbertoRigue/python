@@ -1,3 +1,3 @@
 # Python
-Python from A to Z for desktop and mobile.
+Python fundamentals for desktop and mobile.
 Base repository.
