@@ -1,6 +1,7 @@
 """
-Python em 12 passos serve para o auto-didata conhecer a linguagem em um primeiro contato
+Python em 12 passos serve para o auto-didata curioso conhecer a linguagem em um primeiro contato
 e como se estruturam as funções mais básicas.
+Esse foi um exemplo de comentário em várias linhas.
 """
 
 #Instalação do Python no computador
