@@ -1,0 +1,40 @@
+Ambientes Virtuais
+São um conjunto de configurações que alteram algumas variáveis do sistema operacional conforme prévia configuração.
+
+Podemos ter várias versões do Python no sistema operacional, mas qual versão será executada? 
+Será executada a versão que está configurada no PATH do sistema. 
+
+Para o interpretador do Python funcionar, é necessário criar um novo path, adicionando o local 
+onde se encontra o arquivo python.exe e a pasta script, onde serão depositados os programas que serão criados.
+
+Essa variável de sistema chamada PATH existe para os sistemas operacionais Windows, Mac e Linux, e elas trabalham do mesmo modo. 
+Caso queira verificar quais paths foram configurados no sistema, digite: echo %PATH%, no prompt de comando.
+Podemos utilizar várias versões do Python, ativando ou desativando ambientes virtuais, que habilita ou desabilita algumas 
+variáveis de sistema, como por exemplo a variável path, para alternar versões do Python.
+
+PORQUE USAR AMBIENTES VIRTUAIS
+Aplicações em Python normalmente usam pacotes e módulos que não vêm como parte da instalação padrão. 
+Aplicações às vezes necessitam uma versão específica de uma biblioteca, porque ela requer que algum problema em particular 
+tenha sido consertado ou foi escrita utilizando-se de uma versão obsoleta da interface da biblioteca.
+Isso significa que talvez não seja possível que uma instalação Python preencha os requisitos de qualquer aplicação. 
+Se uma aplicação A necessita a versão 1.0 de um módulo particular, mas a aplicação B necessita a versão 2.0, os requisitos 
+entrarão em conflito e instalar qualquer uma das duas versões 1.0 ou 2.0 fará com que uma das aplicações não consiga executar.
+A solução para este problema é criar um ambiente virtual, uma árvore de diretórios que contém uma instalação Python para uma 
+versão particular do Python, além de uma série de pacotes adicionais.
+Diferentes aplicações podem então usar diferentes ambientes virtuais. 
+Para resolver o exemplo anterior de requisitos conflitantes, a aplicação A deve ter seu próprio ambiente virtual com a versão 1.0
+instalada enquanto a aplicação B vai possuir outro ambiente virtual com a versão 2.0. 
+Se a aplicação B precisar fazer uma atualização para a versão 3.0, isso não afetará o ambiente da aplicação A.
+
+VERSÃO DO PYTHON
+Atualmente, existem duas versões do Python consideradas oficiais. 
+Podemos nos referir as mesmas da seguinte forma: versão 2x e versão 3x.
+O "x" indica que não importa qual a versão utilizada e quais vocês irão utilizar. 
+Importa saber apenas se estamos na versão 2 ou 3 do Python.
+Assim, a recomendação é que sempre utilizem a última versão do Python 2(x) e do Python 3(x). 
+
+VERSÃO DO ANACONDA
+Dependendo do sistema operacional utilizado, será preciso instalar um programa chamado Anaconda. 
+Instale a última versão disponibilizada pelo fabricante. Isto não interferirá de modo algum no desenvolvimento dos exemplos.
+
+
