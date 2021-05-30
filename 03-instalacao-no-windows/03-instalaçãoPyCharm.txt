@@ -1,0 +1,5 @@
+Instalar a versão community do Pycharm no site oficial da jetbrains:
+https://www.jetbrains.com/pt-br/pycharm/download/#section=windows
+
+Fazer instalação padrão e após, instalar os arquivos .jar para configuração do tema.
+(eXcript.jar e PyCharm - KV Completion.jar)
