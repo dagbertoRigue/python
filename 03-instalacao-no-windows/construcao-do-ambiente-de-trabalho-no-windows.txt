@@ -3,16 +3,16 @@ Seguir os passos para a construção do ambiente de trabalho.
 1°. Entrar nas configurações do sistema operacional e desinstalar toda e qualquer versão do Python que existe instalada.
 Isso porque para a utilização de ambientes virtuais, vamos precisar utilizar o Anaconda.
 
-2°. Certificar-se que não existe nenhum path de sistema apontando para nenhuma instalação ou pasta do Python. Clique em “Windows”+“Break” – Configurações avançadas do sistema – Variáveis de ambiente.
+2°. Certificar-se que não existe nenhum path de sistema apontando para nenhuma instalação ou pasta do Python. Clique em “Windows”+“Break” – Configurações avançadas do sistema – Variáveis de ambiente (do usuário e do sistema).
 Lembrando que cada path do sistema é finalizado e separado por ponto-e-vírgula. “;”.
 
 3°. Fazer o download e instalação do Anaconda. Basta digitar no navegador “python anaconda” e entrar no site oficial da Anaconda. Após, basta escolher de acordo com seu sistema, se ele é 32 ou 64bits e a versão do Anaconda deseja instalar.
-Feito o download do executável, basta fazer seguir a caixa de diálogo com next, next, finish.
+Feito o download do executável, basta fazer seguir a caixa de diálogo com next, next, finish. (selecione a caixa de diálogo para adicionar o path)
 
 4°. Abra o prompt de comando e verifique se o Python foi instalado: 
 python --version.
  
-5°. Criar o ambiente virtual (vou chama-lo de k38). Para criar o ambiente virtual, digite: 
+5°. Criar dois ambientes virtuais (vou chama-los de k27 e k38). Para criar o ambiente virtual, digite, por exemplo: 
 conda create --name k38 python=3.8
 O prompt vai mostrar os pacotes da versão do python a ser feito download e a opção de iniciar ou cancelar. Digitando “Y” e enter, os pacotes serão baixados e instalados.
 Após instalado, será liberado novamente o prompt de comando.
