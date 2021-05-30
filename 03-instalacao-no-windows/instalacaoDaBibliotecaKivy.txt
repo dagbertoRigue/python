@@ -14,7 +14,9 @@ Dessa forma, o Anaconda é uma instalação do Python que gerencia outras instal
 Roteiro de instalação:
 1°. Ative o ambiente virtual que deseja fazer a instalação o Kivy. Atenção: não instalar bibliotecas no root (base) do Anaconda, porque não é recomendado utilizá-lo.
 2°. Acesse o site do Kivy em kivy.org e siga as instruções para download (na época, foi usado o roteiro seguinte):
-Obs.: 1. retire a expressão “python  -m” do início dos comandos. 2. Como acabou se ser instalado a ferramenta pip, provavelmente, apenas o setuptools será atualizado.
+Obs.: 1. mantenha a expressão “python  -m” do início dos comandos para versão 2.x.
+           2. para instalação do Kivy, na versão 2.x,  utilize o comando : 
+conda install kivy -c conda-forge
 a.	Verifique se você possui os mais recentes pip, wheel e virtualenv:
 pip install --upgrade pip wheel setuptools virtualenv
 
